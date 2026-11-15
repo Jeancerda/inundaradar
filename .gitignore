@@ -1,0 +1,15 @@
+# Descargas crudas (cientos de MB): se regeneran con pipeline/01..03
+datos/raw/
+
+# Intermedios del pipeline que la app no usa (la app usa .webp y data/datos_zonas.js)
+data/*/*.png
+
+# Python / sistema
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
